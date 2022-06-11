@@ -1,0 +1,175 @@
+.contanier2 {
+  border-radius: 20px;
+  padding: 5px 10px;
+  background: rgb(0, 157, 255);
+  display: none;
+}
+.contanier2.active{
+  display: block;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 15vh;
+}
+header a {
+  font-family: "Overpass", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.left a {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.day {
+  padding: 0 20px;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.day .left p {
+  align-items: center;
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.day .apirigth {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.sunday {
+  padding: 10px 10px;
+  margin: 0 auto;
+  display: flex;
+  overflow: auto;
+}
+.sunday::-webkit-scrollbar {
+  width: 0;
+}
+.scrool::-webkit-scrollbar {
+  width: 6px;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.scrool::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 5px;
+}
+.days{
+  height: 20vh;
+  padding-left: 10px;
+  margin: 0 20px;
+}
+
+.sunday p {
+  padding-left: 2px;
+}
+.sunday img {
+  padding-left: 2px;
+  width: 43px;
+  height: 43px;
+}
+.sunday p {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.days:hover {
+  height: 170px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 10px;
+  transform: scale(1.1);
+  transition: 0.25s;
+}
+.mounth {
+  margin-top: 50px;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.mounth p {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: white;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.scrool {
+  margin:  0 20px;
+  overflow-y: auto;
+  height: 41vh;
+}
+.scrool img {
+  height: 44px;
+  width: 44px;
+}
+.scrool p {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.elem,
+.elem2,
+.elem3,
+.elem4,
+.elem5,
+.elem6,
+.elem7 {
+  margin-top: 40px;
+  height: 2vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.elem7 img {
+  padding-left: 4px;
+}
+footer {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vh;
+}
+footer p {
+  font-family: "Overpass", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
